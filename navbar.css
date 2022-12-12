@@ -1,0 +1,53 @@
+.navbar {
+  width: 1430px;
+  height: 90px;
+  left: 10px;
+  right: 20px;
+  background-color: black;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: right;
+  text-align: center;
+  background-color:transparent;
+  text-decoration: none;
+  padding: 25px;
+  margin-top: -10px;
+  color: white;
+  font-size: 20px;
+}
+.navbar button{
+  float: right;
+  
+}
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: steelblue;
+}
+ .navbar button:hover {
+  background-color: steelblue;
+ }
+
+.active {
+  background-color: steelblue;
+}
+
+
+
+
+.navbar img{
+  float: left;
+  width: 100px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.icon{
+  padding: 10px;
+  background: black;
+  color: steelblue;
+  min-width: 10px;
+  text-align: center;
+}

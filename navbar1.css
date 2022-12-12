@@ -1,0 +1,35 @@
+.navbar {
+    width: 100%;
+    background-color: black;
+    display: inline-block;
+    overflow: auto;
+}
+  .navbar button {
+    float: right;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    border-style: solid;
+    border-color: #22A6F0;;
+  }
+  
+  /* Navbar links on mouse-over */
+  
+  .navbar button:hover {
+    background-color: steelblue;
+  }
+  
+  
+  .active {
+    background-color: #22A6F0;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar button {
+      float: none;
+      display: block;
+    }
+  }

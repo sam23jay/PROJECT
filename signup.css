@@ -1,0 +1,83 @@
+.body{
+    background-image: url('signup.png');
+    background-repeat: no-repeat;
+    margin-left: -7px;
+    margin-top: -15px;
+    width: 500px;
+    height: 825px;
+    position: fixed;
+    padding-left: 20px;
+}
+.Fonts{
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-size: large;
+}
+.fonts{
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-size: large;
+    padding-left: 550px;
+}
+.input-field{
+    padding: 15px;
+    width: 50%;
+    background: black;
+    opacity: 1;
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: white;
+    border-radius: 15px 20px;
+}
+.postion{
+    padding-left: 550px;
+}
+.leftFont{
+    font-family: 'Montserrat';
+    font-style: bold;
+}
+.left{
+    margin-top: -400px;
+    padding-left: 1050px;   
+}
+.input-field-left{
+    padding: 15px;
+    width: 90%;
+    background: black;
+    opacity: 1;
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: white;
+    border-radius: 15px 20px
+}
+.button{
+    font-family: 'Montserrat';
+    font-style: normal;
+    background-color: #22A6F0;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    opacity: 0.9;
+    border-radius: 15px 20px;
+}
+.button:hover{
+    background-color: steelblue;
+    opacity: 1;
+}
+.signin{
+    font-family: 'Montserrat';
+    font-style: normal;
+    padding-left: 300px;
+}
+.visited{
+    color: steelblue;
+    background-color: transparent;
+    font-family: 'Montserrat';
+    font-style: bold;
+}
+.visited:hover{
+    color: #2C9FF2;
+    background-color: transparent;
+}
